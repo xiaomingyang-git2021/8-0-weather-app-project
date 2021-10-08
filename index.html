@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>Weather App Project</title>
+</head>
+<body>
+    <div id="weather_app">
+        <div id="header">
+            <header id="app_header">
+                <h1>Weather App</h1>
+                <form id="city_choice">
+                    <label for="city_name">
+                       <strong>Pick a Location</strong> 
+                        <input type="text" id="city_name" name="city_name">
+                        <input type="submit" value="Get Weather"/>
+                    </label>
+                </form>
+            </header>
+        </div>
+        <div id="main" class="display">
+            <div class="results">Choose a location to view the weather.</div>
+        </div>
+        <div id="sidebar" class="history">
+                <div id="prvious_city"><strong>Previous Searches</strong> 
+                    <div id="message">No previous searches.</div>
+                </div>    
+        </div>        
+        <!-- <div id="weather_results">
+            <div class="weather_results_today">
+                <div>
+                    <h3>Today</h3>
+                </div>
+                <div><strong>Average Temperature:</strong></div>
+                <div><strong>Max Temperature:</strong></div>
+                <div><strong>Min Temperature:</strong></div>
+            </div>
+            <div class="weather_results_tomorrow">
+                <div>
+                    <h3>Tomorrow</h3>
+                </div>
+                <div><strong>Average Temperature:</strong></div>
+                <div><strong>Max Temperature:</strong></div>
+                <div><strong>Min Temperature:</strong></div>
+            </div>
+            <div class="weather_results_after_tomorrow">
+                <div>
+                    <h3>Day After Tomorrow</h3>
+                </div>
+                <div><strong>Average Temperature:</strong></div>
+                <div><strong>Max Temperature:</strong></div>
+                <div><strong>Min Temperature:</strong></div>
+            </div>
+        </div>-->
+    </div>
+</body>
+</html>
