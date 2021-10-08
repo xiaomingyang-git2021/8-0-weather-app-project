@@ -1,0 +1,54 @@
+#weather_app{
+    display:grid;
+    grid-template-areas: 
+    "header header header header"
+    "main main main sidebar"
+    "wr wr wr sidebar";
+    grid-gap: 5px;
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#weather_app > *{
+    /* border: 1px solid black; */
+    padding: 10px 20px; 
+    text-align: center;
+    font-size: 14px;
+}
+#header{
+    grid-area:header;
+    background-color: rgb(0, 128, 128);
+    color: white;
+    border: 5px solid rgb(45, 45, 45);
+}
+
+#main{
+    grid-area: main;
+    border: 2px solid rgb(69, 160, 160);
+}
+
+#sidebar{
+    grid-area: sidebar;
+}
+
+#weather_results{
+    grid-area: wr;
+}
+
+#weather_results {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3px;
+    grid-column-gap: 8px;
+    padding-left: opx;
+    padding-right: 3px;
+}
+
+#previous_city{
+    text-align: left;
+}
+
+#message{
+    text-align: right;
+}
