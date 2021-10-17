@@ -1,7 +1,6 @@
 // let form = document.querySelector("form#city_choice");
 // let searchedCity = [];
-// form.addEventListener("submit",(e)=>{
-  
+// form.addEventListener("submit",(e)=>{  
 //     e.preventDefault();
 //     let selectedCity = e.target["city_name"].value;
 //     if(!selectedCity) {
@@ -9,7 +8,6 @@
 //     }
 //     console.log(selectedCity);
 //     e.target["city_name"].value ="";
-
 //     // let city = selectedCity[0].toUpperCase() + selectedCity.slice(1);
 //     selectedCity = selectedCity.replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase());
 //     fetch(`https://wttr.in/${selectedCity}?format=j1`)
@@ -227,4 +225,3 @@ function weatherForcast(cityName){
         console.log(error)
     });
 }
- 
