@@ -38,9 +38,9 @@ function weatherForcast(cityName){
                 <div>
                     <h3>Today</h3>
                 </div>
-                <div>Average Tempretaure: ${data.weather[0].avgtempF} °F</div>
-                <div>Max Temperature: ${data.weather[0].maxtempF} °F</div>
-                <div>Min Temperature: ${data.weather[0].mintempF} °F</div>
+                <div>Average Tempretaure: ${data.weather[0].avgtempF} °F / ${data.weather[0].avgtempC} °C</div>
+                <div>Max Temperature: ${data.weather[0].maxtempF} °F / ${data.weather[0].maxtempC} °C</div>
+                <div>Min Temperature: ${data.weather[0].mintempF} °F / ${data.weather[0].mintempC} °C</div>
         </div>
         <div id="weather_results_tomorrow">
                 <div>
